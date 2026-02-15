@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bootdotdev/pokedexcli/internal/pokecache"
+	"github.com/DavidMWeaver4/pokedex/internal/pokecache"
 )
 
 // Client -
 type Client struct {
-	cache      pokecache.Cache
+	cache      *pokecache.Cache
 	httpClient http.Client
 }
 
