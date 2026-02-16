@@ -83,7 +83,7 @@ func getCommands(cfg *config) map[string]cliCommand {
 			description: "Attemps to catch a pokemon",
 			callback:    catchCommand,
 		},
-		"inspect"{
+		"inspect": {
 			name:			"inspect",
 			description:	"Inspect a pokemon you have caught",
 			callback: 		inspectCommand,
